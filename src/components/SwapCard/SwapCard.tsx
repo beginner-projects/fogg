@@ -35,7 +35,7 @@ export default function SwapCard() {
         const connectedAddress = wallet.accounts[0];
         if (connectedAddress) {
             try {
-                const web3 = new Web3(window.ethereum); // Assuming MetaMask is used
+                const web3 = new Web3((window as any).ethereum); // Assuming MetaMask is used
                 const contract = new web3.eth.Contract(PresaleABI, PresaleContractAddress);
     
                 // Convert BNB amount to Wei

@@ -1,0 +1,131 @@
+:root {
+  --color_background-100: #0d131c;
+  --color_white: #fff;
+  --color_blue: #2283f6;
+}
+
+.button-3d[data-1] {
+  align-items: center;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.button-3d_md.button-3d[data-1] {
+  font-size: 14px;
+  padding-bottom: 4px;
+}
+
+*,
+:after,
+:before {
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+}
+
+:after,
+:before {
+  text-decoration: inherit;
+  vertical-align: inherit;
+}
+
+.button-3d[data-1],
+.button-3d[data-1]:after {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.button-3d[data-1]:after {
+  bottom: 0;
+  content: "";
+  display: block;
+  left: 0;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  z-index: 0;
+}
+
+.button-3d_red.button-3d[data-1]:after {
+  background-color: #61001d;
+}
+
+.button-3d_md.button-3d[data-1]:after {
+  border-radius: 10px;
+  height: 44px;
+}
+
+:selection {
+  background-color: var(--color_blue);
+  color: var(--color_white);
+}
+
+.button-3d__outer[data-1] {
+  display: block;
+  height: 100%;
+  position: relative;
+  transition: transform 0.1s ease-in-out;
+  width: 100%;
+  z-index: 1;
+}
+
+.button-3d__outer[data-1] {
+  background: linear-gradient(1turn, #c4003b 0.8%, #fb1949);
+  box-shadow: 0 3px 16px #ff234180, inset 0 4px 3px #ffffff4d;
+}
+
+.button-3d__outer[data-1] {
+  border-radius: 10px;
+}
+
+.button-3d_md:not(.button-3d_only-icon) .button-3d__outer[data-1] {
+  padding: 10px 32px;
+}
+
+.button-3d_red.button-3d:hover .button-3d__outer[data-1] {
+  background: linear-gradient(3360deg, #db0a49 0.8%, #fb2b57);
+  box-shadow: 0 3px 20px #ff234199, inset 0 4px 4px #ffffff5e;
+}
+
+.button-3d_md.button-3d:hover .button-3d__outer[data-1] {
+  transform: translateY(-2px);
+}
+
+.button-3d__inner[data-1] {
+  height: 100%;
+  width: 100%;
+}
+
+.button-3d__inner[data-1] {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.button-3d__inner[data-1] {
+  justify-content: center;
+}
+
+.button-3d__text[data-1] {
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.button-3d__text[data-1] {
+  color: var(--color_white);
+  font-variant-numeric: lining-nums tabular-nums;
+  font-weight: 600;
+}
+
+.button-3d__text[data-1] {
+  font-size: 14px;
+  letter-spacing: -0.28px;
+  line-height: 24px;
+}

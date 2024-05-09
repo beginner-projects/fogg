@@ -1,0 +1,38 @@
+.maincntnr {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  padding: 5%;
+  background: rgb(4, 114, 248);
+  border: none;
+}
+
+.poolData {
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: cover;
+  height: cover;
+  position: relative;
+  z-index: 0;
+}
+
+.gamePadImage {
+  margin-top: 33%;
+  cursor: pointer;
+}
+
+@media (max-width: 450px) {
+  .poolData {
+    height: 50vh;
+  }
+}
+
+@media (min-width: 600px) {
+  .maincntnr {
+    padding: 2%;
+  }
+}

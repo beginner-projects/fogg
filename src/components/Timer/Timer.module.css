@@ -1,0 +1,11 @@
+.timerCounter {
+    color: rgb(112, 248, 141);
+    font-size: 1.8rem;
+    margin-top: 5vh;
+}
+
+@media (min-width: 600px) {
+    .timerCounter {
+      font-size: 2.3rem;
+    }
+  }

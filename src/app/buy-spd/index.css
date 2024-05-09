@@ -1,0 +1,13 @@
+.buynowtag {
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+    font: bold;
+    font-weight: 100;
+}
+
+@media (min-width: 1024px) {
+    .buynowtag {
+        font-weight: 700;
+    }
+}

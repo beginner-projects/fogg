@@ -1,0 +1,21 @@
+.menuWrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10vh;
+}
+
+.buyNowWrapper, .stakeWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gamePadImage {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .gamePadImage:hover {
+    transform: scale(1.3);
+  }
+  

@@ -1,0 +1,22 @@
+.poolWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(173, 172, 172);
+}
+
+.subtag {
+  font-size: 1em;
+}
+
+.poolBalance {
+  font-size: 2.3em;
+  color: white;
+}
+
+@media (min-width: 600px) {
+  .poolBalance {
+    font-size: 3.5rem;
+  }
+}

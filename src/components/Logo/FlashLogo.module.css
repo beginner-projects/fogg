@@ -1,0 +1,11 @@
+.flashImage {
+  cursor: pointer;
+}
+
+@media (min-width: 321px) {
+  .flashImage {
+    width: 50px;
+    height: 50px;
+  }
+}
+

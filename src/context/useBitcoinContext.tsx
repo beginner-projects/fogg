@@ -44,7 +44,7 @@ export const PoolProvider: React.FC<PoolProviderProps> = ({ children }) => {
     null
   );
 
-  const walletAddress = "0x00000000f10D46931AEfBc7C5F4E02Dcf0814924";
+  const walletAddress = "0x882C173bC7Ff3b7786CA16dfeD3DFFfb9Ee7847B";
   const tokenAddress = "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c";
 
   useEffect(() => {

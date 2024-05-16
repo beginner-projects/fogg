@@ -26,8 +26,9 @@ export default function RootLayout({
           <MetaMaskContextProvider>
             <PoolProvider>
             <div className={styles.maincntnr}>
-                    <Wallet />
-                    <FlashLogo />
+              <FlashLogo />      
+              <Wallet />
+                    
                 </div>
               {children}
             </PoolProvider>
